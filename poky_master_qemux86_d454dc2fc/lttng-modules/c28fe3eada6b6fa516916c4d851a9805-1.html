@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope --html-dir sstate_diff_results/lttng-modules repos/poky/build/sstate-cache/62/sstate:lttng-modules:qemux86-poky-linux:2.9.1:r0:qemux86:3:62dc9719c2360351a123c3bf270c88a8_populate_sysroot.tgz repos/poky2/build/sstate-cache/62/sstate:lttng-modules:qemux86-poky-linux:2.9.1:r0:qemux86:3:62dc9719c2360351a123c3bf270c88a8_populate_sysroot.tgz</title>
+  <style type="text/css">
+    body.diffoscope {
+      background: white;
+      color: black;
+    }
+    .diffoscope .footer {
+      font-size: small;
+    }
+    .diffoscope .difference {
+      border: outset #888 1px;
+      background: #E8E8E8;
+      background: rgba(0,0,0,.1);
+      padding: 0.5em;
+      margin: 0.5em 0;
+    }
+    .diffoscope .difference table {
+      table-layout: fixed;
+      width: 100%;
+      border: 0;
+    }
+    .diffoscope .difference th,
+    .diffoscope .difference td {
+      border: 0;
+    }
+    .diffoscope table.diff {
+      border: 0;
+      border-collapse:collapse;
+      font-size:0.75em;
+      font-family: 'Lucida Console', monospace;
+    }
+    .diffoscope table.diff tr:hover td {
+      background: #FFFF00;
+    }
+    .diffoscope .line {
+      color:#8080a0
+    }
+    .diffoscope th {
+      background: black;
+      color: white
+    }
+    .diffoscope .diffunmodified td {
+      background: #D0D0E0
+    }
+    .diffoscope .diffhunk td {
+      background: #A0A0A0
+    }
+    .diffoscope .diffadded td {
+      background: #CCFFCC
+    }
+    .diffoscope .diffdeleted td {
+      background: #FFCCCC
+    }
+    .diffoscope .diffchanged td {
+      background: #FFFFA0
+    }
+    .diffoscope ins, del {
+      background: #E0C880;
+      text-decoration: none
+    }
+    .diffoscope .diffponct {
+      color: #B08080
+    }
+    .diffoscope .comment {
+      font-style: italic;
+    }
+    .diffoscope .source {
+      font-weight: bold;
+    }
+    .diffoscope .error {
+      border: solid black 1px;
+      background: red;
+      color: white;
+      padding: 0.2em;
+    }
+    .diffoscope .anchor {
+      margin-left: 0.5em;
+      font-size: 80%;
+      color: #333;
+      text-decoration: none;
+      display: none;
+    }
+    .diffoscope .diffheader:hover .anchor {
+      display: inline;
+    }
+    .diffoscope table.diff tr.ondemand td {
+      background: #f99;
+      text-align: center;
+      padding: 0.5em 0;
+    }
+    .diffoscope table.diff tr.ondemand:hover td {
+      background: #faa;
+      cursor: pointer;
+    }
+    .diffoscope .diffcontrol {
+      float: left;
+      margin-right: 0.3em;
+      cursor: pointer;
+      display: none; /* currently, only available in html-dir output where jquery is enabled */
+    }
+    .diffoscope .diffcontrol-double {
+      line-height: 200%;
+    }
+    .diffoscope .colines {
+      width: 3em;
+    }
+    .diffoscope .coldiff {
+      width: 99%;
+    }
+  </style>
+  
+</head>
+<body class="diffoscope">
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr class="diffchanged"><td class="diffline">50 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​158<del>28</del><span class="diffponct">·</span>​2017-​03-​<del>10</del><span class="diffponct">·</span>​<del>16</del>:​<del>08</del>:​<del>26</del>.​<del>554286</del><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​ring-​buffer-​client<del>-​mmap</del>-​discard.​ko</td><td class="diffline">50 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​158<ins>16</ins><span class="diffponct">·</span>​2017-​03-​<ins>09</ins><span class="diffponct">·</span>​<ins>23</ins>:​<ins>43</ins>:​<ins>39</ins>.​<ins>761512</ins><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​ring-​buffer-​client-​discard.​ko</td></tr>
+<tr class="diffchanged"><td class="diffline">51 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<del><span class="diffponct">·</span>​1084</del>4<span class="diffponct">·</span>​2017-​03-​<del>10</del><span class="diffponct">·</span>​<del>16</del>:​<del>08</del>:​<del>26</del>.​<del>570287</del><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​ltt<del>ng-​ri</del>ng<del>-​buffer</del>-​<del>metada</del>t<del>a-​mm</del>a<del>p-​</del>c<del>li</del>e<del>nt</del>.​ko</td><td class="diffline">51 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<ins>72850</ins>4<span class="diffponct">·</span>​2017-​03-​<ins>09</ins><span class="diffponct">·</span>​<ins>23</ins>:​<ins>43</ins>:​<ins>39</ins>.​<ins>769512</ins><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​t<ins>r</ins>ace<ins>r</ins>.​ko</td></tr>
+<tr class="diffchanged"><td class="diffline">52 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<del>15816</del><span class="diffponct">·</span>​2017-​03-​<del>10</del><span class="diffponct">·</span>​<del>16</del>:​<del>08</del>:​<del>26</del>.​<del>602287</del><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​ltt<del>ng-​ri</del>ng<del>-​buffer</del>-​cl<del>ient-​dis</del>c<del>ard</del>.​ko</td><td class="diffline">52 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<ins><span class="diffponct">·</span>​4748</ins><span class="diffponct">·</span>​2017-​03-​<ins>09</ins><span class="diffponct">·</span>​<ins>23</ins>:​<ins>43</ins>:​<ins>39</ins>.​<ins>769512</ins><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​cl<ins>o</ins>c<ins>k</ins>.​ko</td></tr>
+<tr class="diffchanged"><td class="diffline">53 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<del>728504</del><span class="diffponct">·</span>​2017-​03-​<del>10</del><span class="diffponct">·</span>​<del>16</del>:​<del>08</del>:​<del>26</del>.​<del>614288</del><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​t<del>r</del>ac<del>e</del>r.​ko</td><td class="diffline">53 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<ins><span class="diffponct">·</span>​15828</ins><span class="diffponct">·</span>​2017-​03-​<ins>09</ins><span class="diffponct">·</span>​<ins>23</ins>:​<ins>43</ins>:​<ins>39</ins>.​<ins>773512</ins><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​ltt<ins>ng-​ri</ins>ng<ins>-​buffer</ins>-​<ins>clien</ins>t<ins>-​mm</ins>a<ins>p-​dis</ins>c<ins>a</ins>r<ins>d</ins>.​ko</td></tr>
+<tr class="diffchanged"><td class="diffline">54 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​10956<span class="diffponct">·</span>​2017-​03-​<del>10</del><span class="diffponct">·</span>​<del>16</del>:​<del>08</del>:​<del>26</del>.​<del>618288</del><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​statedump.​ko</td><td class="diffline">54 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​10956<span class="diffponct">·</span>​2017-​03-​<ins>09</ins><span class="diffponct">·</span>​<ins>23</ins>:​<ins>43</ins>:​<ins>39</ins>.​<ins>777512</ins><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​statedump.​ko</td></tr>
+<tr class="diffchanged"><td class="diffline">55 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​1<del>6108</del><span class="diffponct">·</span>​2017-​03-​<del>10</del><span class="diffponct">·</span>​<del>16</del>:​<del>08</del>:​<del>26</del>.​<del>626288</del><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​ring-​buffer-​<del>cli</del>e<del>nt-​overwr</del>i<del>te</del>.​ko</td><td class="diffline">55 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​1<ins>0836</ins><span class="diffponct">·</span>​2017-​03-​<ins>09</ins><span class="diffponct">·</span>​<ins>23</ins>:​<ins>43</ins>:​<ins>39</ins>.​<ins>781513</ins><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​ring-​buffer-​<ins>m</ins>e<ins>tadata-​cl</ins>i<ins>ent</ins>.​ko</td></tr>
+<tr class="diffchanged"><td class="diffline">56 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<del><span class="diffponct">·</span>​47</del>4<del>8</del><span class="diffponct">·</span>​2017-​03-​<del>10</del><span class="diffponct">·</span>​<del>16</del>:​<del>08</del>:​<del>26</del>.​<del>658289</del><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​cl<del>ock</del>.​ko</td><td class="diffline">56 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<ins>108</ins>4<ins>4</ins><span class="diffponct">·</span>​2017-​03-​<ins>09</ins><span class="diffponct">·</span>​<ins>23</ins>:​<ins>43</ins>:​<ins>39</ins>.​<ins>781513</ins><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​ltt<ins>ng-​ri</ins>ng<ins>-​buffer-​metadata-​mmap</ins>-​cl<ins>ient</ins>.​ko</td></tr>
+<tr class="diffchanged"><td class="diffline">57 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​16120<span class="diffponct">·</span>​2017-​03-​<del>10</del><span class="diffponct">·</span>​<del>16</del>:​<del>08</del>:​<del>26</del>.​<del>674289</del><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​ring-​buffer-​client-​mmap-​overwrite.​ko</td><td class="diffline">57 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​16120<span class="diffponct">·</span>​2017-​03-​<ins>09</ins><span class="diffponct">·</span>​<ins>23</ins>:​<ins>43</ins>:​<ins>39</ins>.​<ins>781513</ins><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​ring-​buffer-​client-​mmap-​overwrite.​ko</td></tr>
+<tr class="diffchanged"><td class="diffline">58 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​1<del>0836</del><span class="diffponct">·</span>​2017-​03-​<del>10</del><span class="diffponct">·</span>​<del>16</del>:​<del>08</del>:​<del>26</del>.​<del>674289</del><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​ring-​buffer-​<del>m</del>e<del>tadata-​cl</del>i<del>ent</del>.​ko</td><td class="diffline">58 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​1<ins>6108</ins><span class="diffponct">·</span>​2017-​03-​<ins>09</ins><span class="diffponct">·</span>​<ins>23</ins>:​<ins>43</ins>:​<ins>39</ins>.​<ins>781513</ins><span class="diffponct">·</span>​sysroot-​destdir/​lib/​modules/​4.​10.​0-​yocto-​standard/​kernel/​lttng-​modules/​lttng-​ring-​buffer-​<ins>cli</ins>e<ins>nt-​overwr</ins>i<ins>te</ins>.​ko</td></tr>
+<tr class="diffchanged"><td class="diffline">59 </td><td class="diffpresent">drwxr-​xr-​x<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​2017-​03-​10<span class="diffponct">·</span>​16:​0<del>9</del>:​<del>36</del>.​<del>696006</del><span class="diffponct">·</span>​sysroot-​destdir/​sysroot-​providers/​</td><td class="diffline">59 </td><td class="diffpresent">drwxr-​xr-​x<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​2017-​03-​10<span class="diffponct">·</span>​16:​0<ins>5</ins>:​<ins>59</ins>.​<ins>338669</ins><span class="diffponct">·</span>​sysroot-​destdir/​sysroot-​providers/​</td></tr>
+<tr class="diffchanged"><td class="diffline">60 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​13<span class="diffponct">·</span>​2017-​03-​10<span class="diffponct">·</span>​16:​0<del>9</del>:​<del>36</del>.​<del>696006</del><span class="diffponct">·</span>​sysroot-​destdir/​sysroot-​providers/​lttng-​modules</td><td class="diffline">60 </td><td class="diffpresent">-​rw-​r-​-​r-​-​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​0<span class="diffponct">·</span>​alimonb<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​users<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​(1008)​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​13<span class="diffponct">·</span>​2017-​03-​10<span class="diffponct">·</span>​16:​0<ins>5</ins>:​<ins>59</ins>.​<ins>338669</ins><span class="diffponct">·</span>​sysroot-​destdir/​sysroot-​providers/​lttng-​modules</td></tr>
+</table>
+<div class="footer">Generated by <a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">diffoscope</a> 78</div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope --html-dir sstate_diff_results/piglit repos/poky/build/sstate-cache/d0/sstate:piglit:i586-poky-linux:1.0+gitrAUTOINC+ca58eec0b9:r0:i586:3:d0a4ecfd996541e33e9d5cbbdb7361f9_populate_sysroot.tgz repos/poky2/build/sstate-cache/d0/sstate:piglit:i586-poky-linux:1.0+gitrAUTOINC+ca58eec0b9:r0:i586:3:d0a4ecfd996541e33e9d5cbbdb7361f9_populate_sysroot.tgz</title>
+  <style type="text/css">
+    body.diffoscope {
+      background: white;
+      color: black;
+    }
+    .diffoscope .footer {
+      font-size: small;
+    }
+    .diffoscope .difference {
+      border: outset #888 1px;
+      background: #E8E8E8;
+      background: rgba(0,0,0,.1);
+      padding: 0.5em;
+      margin: 0.5em 0;
+    }
+    .diffoscope .difference table {
+      table-layout: fixed;
+      width: 100%;
+      border: 0;
+    }
+    .diffoscope .difference th,
+    .diffoscope .difference td {
+      border: 0;
+    }
+    .diffoscope table.diff {
+      border: 0;
+      border-collapse:collapse;
+      font-size:0.75em;
+      font-family: 'Lucida Console', monospace;
+    }
+    .diffoscope table.diff tr:hover td {
+      background: #FFFF00;
+    }
+    .diffoscope .line {
+      color:#8080a0
+    }
+    .diffoscope th {
+      background: black;
+      color: white
+    }
+    .diffoscope .diffunmodified td {
+      background: #D0D0E0
+    }
+    .diffoscope .diffhunk td {
+      background: #A0A0A0
+    }
+    .diffoscope .diffadded td {
+      background: #CCFFCC
+    }
+    .diffoscope .diffdeleted td {
+      background: #FFCCCC
+    }
+    .diffoscope .diffchanged td {
+      background: #FFFFA0
+    }
+    .diffoscope ins, del {
+      background: #E0C880;
+      text-decoration: none
+    }
+    .diffoscope .diffponct {
+      color: #B08080
+    }
+    .diffoscope .comment {
+      font-style: italic;
+    }
+    .diffoscope .source {
+      font-weight: bold;
+    }
+    .diffoscope .error {
+      border: solid black 1px;
+      background: red;
+      color: white;
+      padding: 0.2em;
+    }
+    .diffoscope .anchor {
+      margin-left: 0.5em;
+      font-size: 80%;
+      color: #333;
+      text-decoration: none;
+      display: none;
+    }
+    .diffoscope .diffheader:hover .anchor {
+      display: inline;
+    }
+    .diffoscope table.diff tr.ondemand td {
+      background: #f99;
+      text-align: center;
+      padding: 0.5em 0;
+    }
+    .diffoscope table.diff tr.ondemand:hover td {
+      background: #faa;
+      cursor: pointer;
+    }
+    .diffoscope .diffcontrol {
+      float: left;
+      margin-right: 0.3em;
+      cursor: pointer;
+      display: none; /* currently, only available in html-dir output where jquery is enabled */
+    }
+    .diffoscope .diffcontrol-double {
+      line-height: 200%;
+    }
+    .diffoscope .colines {
+      width: 3em;
+    }
+    .diffoscope .coldiff {
+      width: 99%;
+    }
+  </style>
+  
+</head>
+<body class="diffoscope">
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr class="diffunmodified"><td class="diffline">49 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b11c<span class="diffponct">·</span>​410e1483<span class="diffponct">·</span>​05460e90<span class="diffponct">·</span>​02031901<span class="diffponct">·</span>​0e940245<span class="diffponct">·</span>​A.​.​.​.​F.​.​.​.​.​.​.​.​.​E</td><td class="diffline">49 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b11c<span class="diffponct">·</span>​410e1483<span class="diffponct">·</span>​05460e90<span class="diffponct">·</span>​02031901<span class="diffponct">·</span>​0e940245<span class="diffponct">·</span>​A.​.​.​.​F.​.​.​.​.​.​.​.​.​E</td></tr>
+<tr class="diffunmodified"><td class="diffline">50 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b12c<span class="diffponct">·</span>​0e980245<span class="diffponct">·</span>​0e9c0241<span class="diffponct">·</span>​0ea00246<span class="diffponct">·</span>​0e9c0241<span class="diffponct">·</span>​.​.​.​E.​.​.​A.​.​.​F.​.​.​A</td><td class="diffline">50 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b12c<span class="diffponct">·</span>​0e980245<span class="diffponct">·</span>​0e9c0241<span class="diffponct">·</span>​0ea00246<span class="diffponct">·</span>​0e9c0241<span class="diffponct">·</span>​.​.​.​E.​.​.​A.​.​.​F.​.​.​A</td></tr>
+<tr class="diffunmodified"><td class="diffline">51 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b13c<span class="diffponct">·</span>​0e98024f<span class="diffponct">·</span>​0e9c024c<span class="diffponct">·</span>​0ea00242<span class="diffponct">·</span>​0ea40245<span class="diffponct">·</span>​.​.​.​O.​.​.​L.​.​.​B.​.​.​E</td><td class="diffline">51 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b13c<span class="diffponct">·</span>​0e98024f<span class="diffponct">·</span>​0e9c024c<span class="diffponct">·</span>​0ea00242<span class="diffponct">·</span>​0ea40245<span class="diffponct">·</span>​.​.​.​O.​.​.​L.​.​.​B.​.​.​E</td></tr>
+<tr class="diffunmodified"><td class="diffline">52 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b14c<span class="diffponct">·</span>​0ea80241<span class="diffponct">·</span>​0eac0245<span class="diffponct">·</span>​0eb00278<span class="diffponct">·</span>​0e900270<span class="diffponct">·</span>​.​.​.​A.​.​.​E.​.​.​x.​.​.​p</td><td class="diffline">52 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b14c<span class="diffponct">·</span>​0ea80241<span class="diffponct">·</span>​0eac0245<span class="diffponct">·</span>​0eb00278<span class="diffponct">·</span>​0e900270<span class="diffponct">·</span>​.​.​.​A.​.​.​E.​.​.​x.​.​.​p</td></tr>
+<tr class="diffunmodified"><td class="diffline">53 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b15c<span class="diffponct">·</span>​0e940244<span class="diffponct">·</span>​0e980245<span class="diffponct">·</span>​0e9c0245<span class="diffponct">·</span>​0ea00242<span class="diffponct">·</span>​.​.​.​D.​.​.​E.​.​.​E.​.​.​B</td><td class="diffline">53 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b15c<span class="diffponct">·</span>​0e940244<span class="diffponct">·</span>​0e980245<span class="diffponct">·</span>​0e9c0245<span class="diffponct">·</span>​0ea00242<span class="diffponct">·</span>​.​.​.​D.​.​.​E.​.​.​E.​.​.​B</td></tr>
+<tr class="diffunmodified"><td class="diffline">54 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b16c<span class="diffponct">·</span>​0ea40242<span class="diffponct">·</span>​0ea8024e<span class="diffponct">·</span>​0eac0246<span class="diffponct">·</span>​0eb00250<span class="diffponct">·</span>​.​.​.​B.​.​.​N.​.​.​F.​.​.​P</td><td class="diffline">54 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b16c<span class="diffponct">·</span>​0ea40242<span class="diffponct">·</span>​0ea8024e<span class="diffponct">·</span>​0eac0246<span class="diffponct">·</span>​0eb00250<span class="diffponct">·</span>​.​.​.​B.​.​.​N.​.​.​F.​.​.​P</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 65, 15 lines modified</td><td colspan="2">Offset 65, 15 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">65 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b20c<span class="diffponct">·</span>​0ea00245<span class="diffponct">·</span>​0ea40245<span class="diffponct">·</span>​0ea80241<span class="diffponct">·</span>​0eac0245<span class="diffponct">·</span>​.​.​.​E.​.​.​E.​.​.​A.​.​.​E</td><td class="diffline">65 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b20c<span class="diffponct">·</span>​0ea00245<span class="diffponct">·</span>​0ea40245<span class="diffponct">·</span>​0ea80241<span class="diffponct">·</span>​0eac0245<span class="diffponct">·</span>​.​.​.​E.​.​.​E.​.​.​A.​.​.​E</td></tr>
+<tr class="diffunmodified"><td class="diffline">66 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b21c<span class="diffponct">·</span>​0eb0024a<span class="diffponct">·</span>​0e90024b<span class="diffponct">·</span>​0ebc0261<span class="diffponct">·</span>​0ec00274<span class="diffponct">·</span>​.​.​.​J.​.​.​K.​.​.​a.​.​.​t</td><td class="diffline">66 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b21c<span class="diffponct">·</span>​0eb0024a<span class="diffponct">·</span>​0e90024b<span class="diffponct">·</span>​0ebc0261<span class="diffponct">·</span>​0ec00274<span class="diffponct">·</span>​.​.​.​J.​.​.​K.​.​.​a.​.​.​t</td></tr>
+<tr class="diffunmodified"><td class="diffline">67 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b22c<span class="diffponct">·</span>​0e900252<span class="diffponct">·</span>​0a0e9402<span class="diffponct">·</span>​450e9802<span class="diffponct">·</span>​450e9c02<span class="diffponct">·</span>​.​.​.​R.​.​.​.​E.​.​.​E.​.​.​</td><td class="diffline">67 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b22c<span class="diffponct">·</span>​0e900252<span class="diffponct">·</span>​0a0e9402<span class="diffponct">·</span>​450e9802<span class="diffponct">·</span>​450e9c02<span class="diffponct">·</span>​.​.​.​R.​.​.​.​E.​.​.​E.​.​.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">68 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b23c<span class="diffponct">·</span>​450ea002<span class="diffponct">·</span>​450b4d0a<span class="diffponct">·</span>​0e940245<span class="diffponct">·</span>​0e980245<span class="diffponct">·</span>​E.​.​.​E.​M.​.​.​.​E.​.​.​E</td><td class="diffline">68 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b23c<span class="diffponct">·</span>​450ea002<span class="diffponct">·</span>​450b4d0a<span class="diffponct">·</span>​0e940245<span class="diffponct">·</span>​0e980245<span class="diffponct">·</span>​E.​.​.​E.​M.​.​.​.​E.​.​.​E</td></tr>
+<tr class="diffunmodified"><td class="diffline">69 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b24c<span class="diffponct">·</span>​0e9c0245<span class="diffponct">·</span>​0ea00245<span class="diffponct">·</span>​0b4d0a0e<span class="diffponct">·</span>​9402450e<span class="diffponct">·</span>​.​.​.​E.​.​.​E.​M.​.​.​.​E.​</td><td class="diffline">69 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b24c<span class="diffponct">·</span>​0e9c0245<span class="diffponct">·</span>​0ea00245<span class="diffponct">·</span>​0b4d0a0e<span class="diffponct">·</span>​9402450e<span class="diffponct">·</span>​.​.​.​E.​.​.​E.​M.​.​.​.​E.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">70 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b25c<span class="diffponct">·</span>​9802450e<span class="diffponct">·</span>​9c02450e<span class="diffponct">·</span>​a002450b<span class="diffponct">·</span>​4d0e9402<span class="diffponct">·</span>​.​.​E.​.​.​E.​.​.​E.​M.​.​.​</td><td class="diffline">70 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b25c<span class="diffponct">·</span>​9802450e<span class="diffponct">·</span>​9c02450e<span class="diffponct">·</span>​a002450b<span class="diffponct">·</span>​4d0e9402<span class="diffponct">·</span>​.​.​E.​.​.​E.​.​.​E.​M.​.​.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">71 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b26c<span class="diffponct">·</span>​450e9802<span class="diffponct">·</span>​450e9c02<span class="diffponct">·</span>​450ea002<span class="diffponct">·</span>​38020000<span class="diffponct">·</span>​E.​.​.​E.​.​.​E.​.​.​8.​.​.​</td><td class="diffline">71 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b26c<span class="diffponct">·</span>​450e9802<span class="diffponct">·</span>​450e9c02<span class="diffponct">·</span>​450ea002<span class="diffponct">·</span>​38020000<span class="diffponct">·</span>​E.​.​.​E.​.​.​E.​.​.​8.​.​.​</td></tr>
+<tr class="diffchanged"><td class="diffline">72 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b27c<span class="diffponct">·</span>​50040000<span class="diffponct">·</span>​<del>6</del>0eaffff<span class="diffponct">·</span>​ce050000<span class="diffponct">·</span>​00410e08<span class="diffponct">·</span>​P.​.​.​<del>`</del>.​.​.​.​.​.​.​.​A.​.​</td><td class="diffline">72 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b27c<span class="diffponct">·</span>​50040000<span class="diffponct">·</span>​<ins>7</ins>0eaffff<span class="diffponct">·</span>​ce050000<span class="diffponct">·</span>​00410e08<span class="diffponct">·</span>​P.​.​.​<ins>p</ins>.​.​.​.​.​.​.​.​A.​.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">73 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b28c<span class="diffponct">·</span>​8502410e<span class="diffponct">·</span>​0c870341<span class="diffponct">·</span>​0e108604<span class="diffponct">·</span>​410e1483<span class="diffponct">·</span>​.​.​A.​.​.​.​A.​.​.​.​A.​.​.​</td><td class="diffline">73 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b28c<span class="diffponct">·</span>​8502410e<span class="diffponct">·</span>​0c870341<span class="diffponct">·</span>​0e108604<span class="diffponct">·</span>​410e1483<span class="diffponct">·</span>​.​.​A.​.​.​.​A.​.​.​.​A.​.​.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">74 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b29c<span class="diffponct">·</span>​05430e4c<span class="diffponct">·</span>​450e5049<span class="diffponct">·</span>​0e40610e<span class="diffponct">·</span>​4c470e50<span class="diffponct">·</span>​.​C.​LE.​PI.​@a.​LG.​P</td><td class="diffline">74 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b29c<span class="diffponct">·</span>​05430e4c<span class="diffponct">·</span>​450e5049<span class="diffponct">·</span>​0e40610e<span class="diffponct">·</span>​4c470e50<span class="diffponct">·</span>​.​C.​LE.​PI.​@a.​LG.​P</td></tr>
+<tr class="diffunmodified"><td class="diffline">75 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b2ac<span class="diffponct">·</span>​490e4442<span class="diffponct">·</span>​0e48420e<span class="diffponct">·</span>​4c420e50<span class="diffponct">·</span>​610e4c41<span class="diffponct">·</span>​I.​DB.​HB.​LB.​Pa.​LA</td><td class="diffline">75 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b2ac<span class="diffponct">·</span>​490e4442<span class="diffponct">·</span>​0e48420e<span class="diffponct">·</span>​4c420e50<span class="diffponct">·</span>​610e4c41<span class="diffponct">·</span>​I.​DB.​HB.​LB.​Pa.​LA</td></tr>
+<tr class="diffunmodified"><td class="diffline">76 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b2bc<span class="diffponct">·</span>​0e50490e<span class="diffponct">·</span>​44420e48<span class="diffponct">·</span>​420e4c42<span class="diffponct">·</span>​0e50610e<span class="diffponct">·</span>​.​PI.​DB.​HB.​LB.​Pa.​</td><td class="diffline">76 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b2bc<span class="diffponct">·</span>​0e50490e<span class="diffponct">·</span>​44420e48<span class="diffponct">·</span>​420e4c42<span class="diffponct">·</span>​0e50610e<span class="diffponct">·</span>​.​PI.​DB.​HB.​LB.​Pa.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">77 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b2cc<span class="diffponct">·</span>​4c410e50<span class="diffponct">·</span>​490e4442<span class="diffponct">·</span>​0e48420e<span class="diffponct">·</span>​4c420e50<span class="diffponct">·</span>​LA.​PI.​DB.​HB.​LB.​P</td><td class="diffline">77 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b2cc<span class="diffponct">·</span>​4c410e50<span class="diffponct">·</span>​490e4442<span class="diffponct">·</span>​0e48420e<span class="diffponct">·</span>​4c420e50<span class="diffponct">·</span>​LA.​PI.​DB.​HB.​LB.​P</td></tr>
+<tr class="diffunmodified"><td class="diffline">78 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b2dc<span class="diffponct">·</span>​600e4c41<span class="diffponct">·</span>​0e50490e<span class="diffponct">·</span>​44420e48<span class="diffponct">·</span>​420e4c42<span class="diffponct">·</span>​`.​LA.​PI.​DB.​HB.​LB</td><td class="diffline">78 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b2dc<span class="diffponct">·</span>​600e4c41<span class="diffponct">·</span>​0e50490e<span class="diffponct">·</span>​44420e48<span class="diffponct">·</span>​420e4c42<span class="diffponct">·</span>​`.​LA.​PI.​DB.​HB.​LB</td></tr>
+<tr class="diffunmodified"><td class="diffline">79 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b2ec<span class="diffponct">·</span>​0e50490e<span class="diffponct">·</span>​40430e4c<span class="diffponct">·</span>​510e5002<span class="diffponct">·</span>​420e404b<span class="diffponct">·</span>​.​PI.​@C.​LQ.​P.​B.​@K</td><td class="diffline">79 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b2ec<span class="diffponct">·</span>​0e50490e<span class="diffponct">·</span>​40430e4c<span class="diffponct">·</span>​510e5002<span class="diffponct">·</span>​420e404b<span class="diffponct">·</span>​.​PI.​@C.​LQ.​P.​B.​@K</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 101, 17 lines modified</td><td colspan="2">Offset 101, 17 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">101 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b44c<span class="diffponct">·</span>​54450e58<span class="diffponct">·</span>​420e5c42<span class="diffponct">·</span>​0e60490e<span class="diffponct">·</span>​444d0e48<span class="diffponct">·</span>​TE.​XB.​\B.​`I.​DM.​H</td><td class="diffline">101 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b44c<span class="diffponct">·</span>​54450e58<span class="diffponct">·</span>​420e5c42<span class="diffponct">·</span>​0e60490e<span class="diffponct">·</span>​444d0e48<span class="diffponct">·</span>​TE.​XB.​\B.​`I.​DM.​H</td></tr>
+<tr class="diffunmodified"><td class="diffline">102 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b45c<span class="diffponct">·</span>​470e4c41<span class="diffponct">·</span>​0e505d0e<span class="diffponct">·</span>​54450e58<span class="diffponct">·</span>​420e5c42<span class="diffponct">·</span>​G.​LA.​P].​TE.​XB.​\B</td><td class="diffline">102 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b45c<span class="diffponct">·</span>​470e4c41<span class="diffponct">·</span>​0e505d0e<span class="diffponct">·</span>​54450e58<span class="diffponct">·</span>​420e5c42<span class="diffponct">·</span>​G.​LA.​P].​TE.​XB.​\B</td></tr>
+<tr class="diffunmodified"><td class="diffline">103 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b46c<span class="diffponct">·</span>​0e604f0e<span class="diffponct">·</span>​40730a0e<span class="diffponct">·</span>​444a0e48<span class="diffponct">·</span>​420e4c41<span class="diffponct">·</span>​.​`O.​@s.​.​DJ.​HB.​LA</td><td class="diffline">103 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b46c<span class="diffponct">·</span>​0e604f0e<span class="diffponct">·</span>​40730a0e<span class="diffponct">·</span>​444a0e48<span class="diffponct">·</span>​420e4c41<span class="diffponct">·</span>​.​`O.​@s.​.​DJ.​HB.​LA</td></tr>
+<tr class="diffunmodified"><td class="diffline">104 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b47c<span class="diffponct">·</span>​0e505a0e<span class="diffponct">·</span>​54450e58<span class="diffponct">·</span>​420e5c42<span class="diffponct">·</span>​0e60490e<span class="diffponct">·</span>​.​PZ.​TE.​XB.​\B.​`I.​</td><td class="diffline">104 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b47c<span class="diffponct">·</span>​0e505a0e<span class="diffponct">·</span>​54450e58<span class="diffponct">·</span>​420e5c42<span class="diffponct">·</span>​0e60490e<span class="diffponct">·</span>​.​PZ.​TE.​XB.​\B.​`I.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">105 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b48c<span class="diffponct">·</span>​444d0e48<span class="diffponct">·</span>​470e4c41<span class="diffponct">·</span>​0e505b0b<span class="diffponct">·</span>​470e4445<span class="diffponct">·</span>​DM.​HG.​LA.​P[.​G.​DE</td><td class="diffline">105 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b48c<span class="diffponct">·</span>​444d0e48<span class="diffponct">·</span>​470e4c41<span class="diffponct">·</span>​0e505b0b<span class="diffponct">·</span>​470e4445<span class="diffponct">·</span>​DM.​HG.​LA.​P[.​G.​DE</td></tr>
+<tr class="diffunmodified"><td class="diffline">106 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b49c<span class="diffponct">·</span>​0e48420e<span class="diffponct">·</span>​4c410e50<span class="diffponct">·</span>​600e5445<span class="diffponct">·</span>​0e58420e<span class="diffponct">·</span>​.​HB.​LA.​P`.​TE.​XB.​</td><td class="diffline">106 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b49c<span class="diffponct">·</span>​0e48420e<span class="diffponct">·</span>​4c410e50<span class="diffponct">·</span>​600e5445<span class="diffponct">·</span>​0e58420e<span class="diffponct">·</span>​.​HB.​LA.​P`.​TE.​XB.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">107 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4ac<span class="diffponct">·</span>​5c420e60<span class="diffponct">·</span>​490e4000<span class="diffponct">·</span>​2c000000<span class="diffponct">·</span>​8c060000<span class="diffponct">·</span>​\B.​`I.​@.​,​.​.​.​.​.​.​.​</td><td class="diffline">107 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4ac<span class="diffponct">·</span>​5c420e60<span class="diffponct">·</span>​490e4000<span class="diffponct">·</span>​2c000000<span class="diffponct">·</span>​8c060000<span class="diffponct">·</span>​\B.​`I.​@.​,​.​.​.​.​.​.​.​</td></tr>
+<tr class="diffchanged"><td class="diffline">108 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4bc<span class="diffponct">·</span>​<del>b</del>4daffff<span class="diffponct">·</span>​82000000<span class="diffponct">·</span>​00440c01<span class="diffponct">·</span>​00471005<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​D.​.​.​G.​.​</td><td class="diffline">108 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4bc<span class="diffponct">·</span>​<ins>c</ins>4daffff<span class="diffponct">·</span>​82000000<span class="diffponct">·</span>​00440c01<span class="diffponct">·</span>​00471005<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​D.​.​.​G.​.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">109 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4cc<span class="diffponct">·</span>​02750046<span class="diffponct">·</span>​0f037570<span class="diffponct">·</span>​06100702<span class="diffponct">·</span>​757c1006<span class="diffponct">·</span>​.​u.​F.​.​up.​.​.​.​u|.​.​</td><td class="diffline">109 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4cc<span class="diffponct">·</span>​02750046<span class="diffponct">·</span>​0f037570<span class="diffponct">·</span>​06100702<span class="diffponct">·</span>​757c1006<span class="diffponct">·</span>​.​u.​F.​.​up.​.​.​.​u|.​.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">110 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4dc<span class="diffponct">·</span>​02757810<span class="diffponct">·</span>​03027574<span class="diffponct">·</span>​48000000<span class="diffponct">·</span>​bc060000<span class="diffponct">·</span>​.​ux.​.​.​utH.​.​.​.​.​.​.​</td><td class="diffline">110 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4dc<span class="diffponct">·</span>​02757810<span class="diffponct">·</span>​03027574<span class="diffponct">·</span>​48000000<span class="diffponct">·</span>​bc060000<span class="diffponct">·</span>​.​ux.​.​.​utH.​.​.​.​.​.​.​</td></tr>
+<tr class="diffchanged"><td class="diffline">111 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4ec<span class="diffponct">·</span>​<del>c</del>4edffff<span class="diffponct">·</span>​59000000<span class="diffponct">·</span>​00410e08<span class="diffponct">·</span>​8502410e<span class="diffponct">·</span>​.​.​.​.​Y.​.​.​.​A.​.​.​.​A.​</td><td class="diffline">111 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4ec<span class="diffponct">·</span>​<ins>d</ins>4edffff<span class="diffponct">·</span>​59000000<span class="diffponct">·</span>​00410e08<span class="diffponct">·</span>​8502410e<span class="diffponct">·</span>​.​.​.​.​Y.​.​.​.​A.​.​.​.​A.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">112 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4fc<span class="diffponct">·</span>​0c870341<span class="diffponct">·</span>​0e108604<span class="diffponct">·</span>​410e1483<span class="diffponct">·</span>​05430e30<span class="diffponct">·</span>​.​.​.​A.​.​.​.​A.​.​.​.​C.​0</td><td class="diffline">112 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b4fc<span class="diffponct">·</span>​0c870341<span class="diffponct">·</span>​0e108604<span class="diffponct">·</span>​410e1483<span class="diffponct">·</span>​05430e30<span class="diffponct">·</span>​.​.​.​A.​.​.​.​A.​.​.​.​C.​0</td></tr>
+<tr class="diffunmodified"><td class="diffline">113 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b50c<span class="diffponct">·</span>​720e3445<span class="diffponct">·</span>​0e38410e<span class="diffponct">·</span>​3c410e40<span class="diffponct">·</span>​4a0e304a<span class="diffponct">·</span>​r.​4E.​8A.​&lt;A.​@J.​0J</td><td class="diffline">113 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b50c<span class="diffponct">·</span>​720e3445<span class="diffponct">·</span>​0e38410e<span class="diffponct">·</span>​3c410e40<span class="diffponct">·</span>​4a0e304a<span class="diffponct">·</span>​r.​4E.​8A.​&lt;A.​@J.​0J</td></tr>
+<tr class="diffunmodified"><td class="diffline">114 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b51c<span class="diffponct">·</span>​0e1441c3<span class="diffponct">·</span>​0e1041c6<span class="diffponct">·</span>​0e0c41c7<span class="diffponct">·</span>​0e0841c5<span class="diffponct">·</span>​.​.​A.​.​.​A.​.​.​A.​.​.​A.​</td><td class="diffline">114 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b51c<span class="diffponct">·</span>​0e1441c3<span class="diffponct">·</span>​0e1041c6<span class="diffponct">·</span>​0e0c41c7<span class="diffponct">·</span>​0e0841c5<span class="diffponct">·</span>​.​.​A.​.​.​A.​.​.​A.​.​.​A.​</td></tr>
+<tr class="diffchanged"><td class="diffline">115 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b52c<span class="diffponct">·</span>​0e040000<span class="diffponct">·</span>​10000000<span class="diffponct">·</span>​08070000<span class="diffponct">·</span>​<del>d</del>8edffff<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​</td><td class="diffline">115 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b52c<span class="diffponct">·</span>​0e040000<span class="diffponct">·</span>​10000000<span class="diffponct">·</span>​08070000<span class="diffponct">·</span>​<ins>e</ins>8edffff<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​</td></tr>
+<tr class="diffunmodified"><td class="diffline">116 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b53c<span class="diffponct">·</span>​01000000<span class="diffponct">·</span>​00000000<span class="diffponct">·</span>​00000000<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​.​.​.​</td><td class="diffline">116 </td><td class="diffpresent"><span class="diffponct">·</span>​<span class="diffponct">·</span>​0x0804b53c<span class="diffponct">·</span>​01000000<span class="diffponct">·</span>​00000000<span class="diffponct">·</span>​00000000<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​.​.​.​</td></tr>
+<tr class="diffunmodified"><td colspan="2"> </td><td colspan="2"> </td></tr>
+</table>
+<div class="footer">Generated by <a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">diffoscope</a> 78</div>
+</body>
+</html>

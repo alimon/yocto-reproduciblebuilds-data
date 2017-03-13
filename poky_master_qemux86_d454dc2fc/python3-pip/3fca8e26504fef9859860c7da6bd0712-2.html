@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope --html-dir sstate_diff_results/python3-pip repos/poky/build/sstate-cache/84/sstate:python3-pip:i586-poky-linux:9.0.1:r0:i586:3:846e1f2da0a311a12df446d44d22a200_populate_sysroot.tgz repos/poky2/build/sstate-cache/84/sstate:python3-pip:i586-poky-linux:9.0.1:r0:i586:3:846e1f2da0a311a12df446d44d22a200_populate_sysroot.tgz</title>
+  <style type="text/css">
+    body.diffoscope {
+      background: white;
+      color: black;
+    }
+    .diffoscope .footer {
+      font-size: small;
+    }
+    .diffoscope .difference {
+      border: outset #888 1px;
+      background: #E8E8E8;
+      background: rgba(0,0,0,.1);
+      padding: 0.5em;
+      margin: 0.5em 0;
+    }
+    .diffoscope .difference table {
+      table-layout: fixed;
+      width: 100%;
+      border: 0;
+    }
+    .diffoscope .difference th,
+    .diffoscope .difference td {
+      border: 0;
+    }
+    .diffoscope table.diff {
+      border: 0;
+      border-collapse:collapse;
+      font-size:0.75em;
+      font-family: 'Lucida Console', monospace;
+    }
+    .diffoscope table.diff tr:hover td {
+      background: #FFFF00;
+    }
+    .diffoscope .line {
+      color:#8080a0
+    }
+    .diffoscope th {
+      background: black;
+      color: white
+    }
+    .diffoscope .diffunmodified td {
+      background: #D0D0E0
+    }
+    .diffoscope .diffhunk td {
+      background: #A0A0A0
+    }
+    .diffoscope .diffadded td {
+      background: #CCFFCC
+    }
+    .diffoscope .diffdeleted td {
+      background: #FFCCCC
+    }
+    .diffoscope .diffchanged td {
+      background: #FFFFA0
+    }
+    .diffoscope ins, del {
+      background: #E0C880;
+      text-decoration: none
+    }
+    .diffoscope .diffponct {
+      color: #B08080
+    }
+    .diffoscope .comment {
+      font-style: italic;
+    }
+    .diffoscope .source {
+      font-weight: bold;
+    }
+    .diffoscope .error {
+      border: solid black 1px;
+      background: red;
+      color: white;
+      padding: 0.2em;
+    }
+    .diffoscope .anchor {
+      margin-left: 0.5em;
+      font-size: 80%;
+      color: #333;
+      text-decoration: none;
+      display: none;
+    }
+    .diffoscope .diffheader:hover .anchor {
+      display: inline;
+    }
+    .diffoscope table.diff tr.ondemand td {
+      background: #f99;
+      text-align: center;
+      padding: 0.5em 0;
+    }
+    .diffoscope table.diff tr.ondemand:hover td {
+      background: #faa;
+      cursor: pointer;
+    }
+    .diffoscope .diffcontrol {
+      float: left;
+      margin-right: 0.3em;
+      cursor: pointer;
+      display: none; /* currently, only available in html-dir output where jquery is enabled */
+    }
+    .diffoscope .diffcontrol-double {
+      line-height: 200%;
+    }
+    .diffoscope .colines {
+      width: 3em;
+    }
+    .diffoscope .coldiff {
+      width: 99%;
+    }
+  </style>
+  
+</head>
+<body class="diffoscope">
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0001f90:​<span class="diffponct">·</span>​6<del>7</del>67<span class="diffponct">·</span>​6572<del><span class="diffponct">·</span>​</del>da08<del><span class="diffponct">·</span>​</del>5f5f<del><span class="diffponct">·</span>​</del>6e61<del><span class="diffponct">·</span>​</del>6d65<del><span class="diffponct">·</span>​</del>5f5f<del><span class="diffponct">·</span>​</del>7<del>2</del>2<del>6</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>gger.​.​__name__r<del>&amp;</del></td><td colspan="2" class="diffpresent">0001f90:​<span class="diffponct">·</span>​6<ins>f</ins>67<span class="diffponct">·</span>​<ins>67</ins>65<ins><span class="diffponct">·</span>​</ins>72da<ins><span class="diffponct">·</span>​</ins>085f<ins><span class="diffponct">·</span>​</ins>5f6e<ins><span class="diffponct">·</span>​</ins>616d<ins><span class="diffponct">·</span>​</ins>655f<ins><span class="diffponct">·</span>​</ins>5f72<ins><span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>o</ins>gger.​.​__name__r</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0001fa0:​<span class="diffponct">·</span>​0000<del><span class="diffponct">·</span>​</del>0<del>0</del>da<del><span class="diffponct">·</span>​</del>0763<del><span class="diffponct">·</span>​</del>6f6d<del><span class="diffponct">·</span>​</del>7069<del><span class="diffponct">·</span>​</del>6c65<del><span class="diffponct">·</span>​</del>727a<del><span class="diffponct">·</span>​0</del>00<del>0</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>.​.​.​.​.​compilerz<del>.​</del>.​</td><td colspan="2" class="diffpresent">0001fa0:​<span class="diffponct">·</span>​<ins>26</ins>00<ins><span class="diffponct">·</span>​</ins>00<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>da07<ins><span class="diffponct">·</span>​</ins>636f<ins><span class="diffponct">·</span>​</ins>6d70<ins><span class="diffponct">·</span>​</ins>696c<ins><span class="diffponct">·</span>​</ins>6572<ins><span class="diffponct">·</span>​</ins>7a00<ins><span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>&amp;</ins>.​.​.​.​.​compilerz.​</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0001fb0:​<span class="diffponct">·</span>​00<del>72</del><span class="diffponct">·</span>​<del>05</del>0<del>0</del><span class="diffponct">·</span>​0000<span class="diffponct">·</span>​7219<del><span class="diffponct">·</span>​</del>0<del>0</del>00<del><span class="diffponct">·</span>​</del>0<del>0</del>72<del><span class="diffponct">·</span>​</del>2<del>00</del>0<span class="diffponct">·</span>​0000<span class="diffponct">·</span>​<span class="diffponct">·</span>​.​r.​.​.​.​r.​.​.​.​r<span class="diffponct">·</span>​<del>.​</del>.​.​</td><td colspan="2" class="diffpresent">0001fb0:​<span class="diffponct">·</span>​00<ins>00</ins><span class="diffponct">·</span>​<ins>72</ins>0<ins>5</ins><span class="diffponct">·</span>​0000<span class="diffponct">·</span>​<ins>00</ins>72<ins><span class="diffponct">·</span>​</ins>19<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>00<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>7220<span class="diffponct">·</span>​0000<span class="diffponct">·</span>​<span class="diffponct">·</span>​<ins>.​</ins>.​r.​.​.​.​r.​.​.​.​r<span class="diffponct">·</span>​.​.​</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0001fc0:​<span class="diffponct">·</span>​721f<del><span class="diffponct">·</span>​</del>0<del>0</del>00<del><span class="diffponct">·</span>​</del>0<del>0</del>72<del><span class="diffponct">·</span>​</del>25<del>0</del>0<del><span class="diffponct">·</span>​</del>00<del>0</del>0<del><span class="diffponct">·</span>​</del>722b<del><span class="diffponct">·</span>​</del>00<del>0</del>0<del><span class="diffponct">·</span>​</del>00<del>72</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>r.​.​.​.​r%.​.​.​r+.​.​.​<del>r</del></td><td colspan="2" class="diffpresent">0001fc0:​<span class="diffponct">·</span>​<ins>00</ins>72<ins><span class="diffponct">·</span>​</ins>1f<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>00<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>7225<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>00<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>72<ins><span class="diffponct">·</span>​</ins>2b00<ins><span class="diffponct">·</span>​</ins>000<ins>0<span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>.​</ins>r.​.​.​.​r%.​.​.​r+.​.​.​</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0001fd0:​<span class="diffponct">·</span>​3e<del>0</del>0<del><span class="diffponct">·</span>​</del>00<del>0</del>0<del><span class="diffponct">·</span>​</del>7240<del><span class="diffponct">·</span>​</del>0<del>0</del>00<del><span class="diffponct">·</span>​</del>0<del>0</del>72<del><span class="diffponct">·</span>​</del>4b<del>0</del>0<del><span class="diffponct">·</span>​</del>00<del>0</del>0<del><span class="diffponct">·</span>​</del>72<del>58</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>&gt;.​.​.​r@.​.​.​rK.​.​.​r<del>X</del></td><td colspan="2" class="diffpresent">0001fd0:​<span class="diffponct">·</span>​<ins>72</ins>3e<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>00<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>72<ins><span class="diffponct">·</span>​</ins>40<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>00<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>724b<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>00<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>72<ins><span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>r</ins>&gt;.​.​.​r@.​.​.​rK.​.​.​r</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0001fe0:​<span class="diffponct">·</span>​0000<del><span class="diffponct">·</span>​</del>0<del>0</del>72<del><span class="diffponct">·</span>​</del>6c<del>0</del>0<del><span class="diffponct">·</span>​</del>00<del>0</del>0<del><span class="diffponct">·</span>​</del>7285<del><span class="diffponct">·</span>​</del>0<del>0</del>00<del><span class="diffponct">·</span>​</del>0<del>0</del>5a<del><span class="diffponct">·</span>​</del>0e<del>73</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>.​.​.​rl.​.​.​r.​.​.​.​Z.​<del>s</del></td><td colspan="2" class="diffpresent">0001fe0:​<span class="diffponct">·</span>​<ins>58</ins>00<ins><span class="diffponct">·</span>​</ins>00<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>726c<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>00<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>72<ins><span class="diffponct">·</span>​</ins>85<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>00<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>5a0e<ins><span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>X</ins>.​.​.​rl.​.​.​r.​.​.​.​Z.​</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0001ff0:​<span class="diffponct">·</span>​7570<del><span class="diffponct">·</span>​</del>706f<del><span class="diffponct">·</span>​</del>7274<del><span class="diffponct">·</span>​</del>6564<del><span class="diffponct">·</span>​</del>5f74<del><span class="diffponct">·</span>​</del>6167<del><span class="diffponct">·</span>​</del>735a<del><span class="diffponct">·</span>​</del>15<del>73</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>upported_tagsZ.​<del>s</del></td><td colspan="2" class="diffpresent">0001ff0:​<span class="diffponct">·</span>​<ins>73</ins>75<ins><span class="diffponct">·</span>​</ins>7070<ins><span class="diffponct">·</span>​</ins>6f72<ins><span class="diffponct">·</span>​</ins>7465<ins><span class="diffponct">·</span>​</ins>645f<ins><span class="diffponct">·</span>​</ins>7461<ins><span class="diffponct">·</span>​</ins>6773<ins><span class="diffponct">·</span>​</ins>5a15<ins><span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>s</ins>upported_tagsZ.​</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0002000:​<span class="diffponct">·</span>​7570<del><span class="diffponct">·</span>​</del>706f<del><span class="diffponct">·</span>​</del>7274<del><span class="diffponct">·</span>​</del>6564<del><span class="diffponct">·</span>​</del>5f74<del><span class="diffponct">·</span>​</del>6167<del><span class="diffponct">·</span>​</del>735f<del><span class="diffponct">·</span>​</del>6e<del>6f</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>upported_tags_n<del>o</del></td><td colspan="2" class="diffpresent">0002000:​<span class="diffponct">·</span>​<ins>73</ins>75<ins><span class="diffponct">·</span>​</ins>7070<ins><span class="diffponct">·</span>​</ins>6f72<ins><span class="diffponct">·</span>​</ins>7465<ins><span class="diffponct">·</span>​</ins>645f<ins><span class="diffponct">·</span>​</ins>7461<ins><span class="diffponct">·</span>​</ins>6773<ins><span class="diffponct">·</span>​</ins>5f6e<ins><span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>s</ins>upported_tags_n</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0002010:​<span class="diffponct">·</span>​6172<del><span class="diffponct">·</span>​</del>6368<del><span class="diffponct">·</span>​</del>5a12<del><span class="diffponct">·</span>​</del>696d<del><span class="diffponct">·</span>​</del>706c<del><span class="diffponct">·</span>​</del>656d<del><span class="diffponct">·</span>​</del>656e<del><span class="diffponct">·</span>​</del>74<del>61</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>archZ.​implement<del>a</del></td><td colspan="2" class="diffpresent">0002010:​<span class="diffponct">·</span>​<ins>6f</ins>61<ins><span class="diffponct">·</span>​</ins>7263<ins><span class="diffponct">·</span>​</ins>685a<ins><span class="diffponct">·</span>​</ins>1269<ins><span class="diffponct">·</span>​</ins>6d70<ins><span class="diffponct">·</span>​</ins>6c65<ins><span class="diffponct">·</span>​</ins>6d65<ins><span class="diffponct">·</span>​</ins>6e74<ins><span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>o</ins>archZ.​implement</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0002020:​<span class="diffponct">·</span>​7469<del><span class="diffponct">·</span>​</del>6f6e<del><span class="diffponct">·</span>​</del>5f74<del><span class="diffponct">·</span>​</del>6167<del><span class="diffponct">·</span>​</del>720d<del><span class="diffponct">·</span>​</del>0<del>0</del>00<del><span class="diffponct">·</span>​</del>0<del>0</del>72<del><span class="diffponct">·</span>​</del>0d<del>00</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>tion_tagr.​.​.​.​r<del>.​</del>.​</td><td colspan="2" class="diffpresent">0002020:​<span class="diffponct">·</span>​<ins>61</ins>74<ins><span class="diffponct">·</span>​</ins>696f<ins><span class="diffponct">·</span>​</ins>6e5f<ins><span class="diffponct">·</span>​</ins>7461<ins><span class="diffponct">·</span>​</ins>6772<ins><span class="diffponct">·</span>​</ins>0d<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>00<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>720d<ins><span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>a</ins>tion_tagr.​.​.​.​r.​</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0002030:​<span class="diffponct">·</span>​0000<span class="diffponct">·</span>​720d<del><span class="diffponct">·</span>​</del>0<del>0</del>00<del><span class="diffponct">·</span>​</del>0<del>0</del>72<del><span class="diffponct">·</span>​</del>0e<del>0</del>0<del><span class="diffponct">·</span>​</del>00<del>0</del>0<del><span class="diffponct">·</span>​</del>da08<del><span class="diffponct">·</span>​</del>3c<del>6d</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>.​.​r.​.​.​.​r.​.​.​.​.​.​&lt;<del>m</del></td><td colspan="2" class="diffpresent">0002030:​<span class="diffponct">·</span>​0000<span class="diffponct">·</span>​<ins>00</ins>72<ins><span class="diffponct">·</span>​</ins>0d<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>00<ins>0</ins>0<ins><span class="diffponct">·</span>​</ins>720e<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>00<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>da<ins><span class="diffponct">·</span>​</ins>083c<ins><span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>.​</ins>.​.​r.​.​.​.​r.​.​.​.​.​.​&lt;</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0002040:​<span class="diffponct">·</span>​6f64<del><span class="diffponct">·</span>​</del>756c<del><span class="diffponct">·</span>​</del>653e<del><span class="diffponct">·</span>​</del>01<del>0</del>0<del><span class="diffponct">·</span>​</del>00<del>0</del>0<del><span class="diffponct">·</span>​</del>733e<del><span class="diffponct">·</span>​</del>00<del>0</del>0<del><span class="diffponct">·</span>​</del>000<del>6</del><span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>odule&gt;.​.​.​.​s&gt;<del>.​</del>.​.​.​</td><td colspan="2" class="diffpresent">0002040:​<span class="diffponct">·</span>​<ins>6d</ins>6f<ins><span class="diffponct">·</span>​</ins>6475<ins><span class="diffponct">·</span>​</ins>6c65<ins><span class="diffponct">·</span>​</ins>3e01<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>00<ins><span class="diffponct">·</span>​</ins>0<ins>0</ins>73<ins><span class="diffponct">·</span>​</ins>3e00<ins><span class="diffponct">·</span>​</ins>0000<ins><span class="diffponct">·</span>​</ins><span class="diffponct">·</span>​<ins>m</ins>odule&gt;.​.​.​.​s&gt;.​.​.​</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0002050:​<span class="diffponct">·</span>​0110<del><span class="diffponct">·</span>​</del>020c<del><span class="diffponct">·</span>​</del>010c<del><span class="diffponct">·</span>​</del>010c<del><span class="diffponct">·</span>​</del>010c<del><span class="diffponct">·</span>​</del>010c<del><span class="diffponct">·</span>​</del>0203<del><span class="diffponct">·</span>​</del>0<del>1</del>1<del>0</del><span class="diffponct">·</span>​<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​</td><td colspan="2" class="diffpresent">0002050:​<span class="diffponct">·</span>​<ins>06</ins>01<ins><span class="diffponct">·</span>​</ins>1002<ins><span class="diffponct">·</span>​</ins>0c01<ins><span class="diffponct">·</span>​</ins>0c01<ins><span class="diffponct">·</span>​</ins>0c01<ins><span class="diffponct">·</span>​</ins>0c01<ins><span class="diffponct">·</span>​</ins>0c02<ins><span class="diffponct">·</span>​</ins>0301<span class="diffponct">·</span>​<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0002060:​<span class="diffponct">·</span>​010d<del><span class="diffponct">·</span>​</del>0214<del><span class="diffponct">·</span>​</del>010c<del><span class="diffponct">·</span>​</del>0210<del><span class="diffponct">·</span>​</del>01<del>0c</del><span class="diffponct">·</span>​0<del>2</del>0<del>f</del><span class="diffponct">·</span>​0<del>2</del>0<del>f</del><span class="diffponct">·</span>​0<del>3</del>0<del>c</del><span class="diffponct">·</span>​<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​</td><td colspan="2" class="diffpresent">0002060:​<span class="diffponct">·</span>​<ins>10</ins>01<ins><span class="diffponct">·</span>​</ins>0d02<ins><span class="diffponct">·</span>​</ins>1401<ins><span class="diffponct">·</span>​</ins>0c02<ins><span class="diffponct">·</span>​</ins>1001<span class="diffponct">·</span>​0<ins>c</ins>0<ins>2</ins><span class="diffponct">·</span>​0<ins>f</ins>0<ins>2</ins><span class="diffponct">·</span>​0<ins>f</ins>0<ins>3</ins><span class="diffponct">·</span>​<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​.​</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0002070:​<span class="diffponct">·</span>​080c<del><span class="diffponct">·</span>​</del>0d0c<del><span class="diffponct">·</span>​</del>080c<del><span class="diffponct">·</span>​</del>0b0c<del><span class="diffponct">·</span>​</del>0712<del><span class="diffponct">·</span>​</del>0c0c<del><span class="diffponct">·</span>​</del>22<del>0c</del><span class="diffponct">·</span>​0<del>4</del>0<del>c</del><span class="diffponct">·</span>​<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​.​.​.​<del>&quot;.​</del>.​.​</td><td colspan="2" class="diffpresent">0002070:​<span class="diffponct">·</span>​<ins>0c</ins>08<ins><span class="diffponct">·</span>​</ins>0c0d<ins><span class="diffponct">·</span>​</ins>0c08<ins><span class="diffponct">·</span>​</ins>0c0b<ins><span class="diffponct">·</span>​</ins>0c07<ins><span class="diffponct">·</span>​</ins>120c<ins><span class="diffponct">·</span>​</ins>0c22<span class="diffponct">·</span>​0<ins>c</ins>0<ins>4</ins><span class="diffponct">·</span>​<span class="diffponct">·</span>​.​.​.​.​.​.​.​.​.​.​.​.​<ins>.​&quot;</ins>.​.​</td></tr>
+<tr class="diffchanged"><td colspan="2" class="diffpresent">0002080:​<span class="diffponct">·</span>​1a0c<del><span class="diffponct">·</span>​</del>1<del>1</del>0c<del><span class="diffponct">·</span>​</del>3d09<del><span class="diffponct">·</span>​</del>0112<del><span class="diffponct">·</span>​</del>5e09<del><span class="diffponct">·</span>​</del>010f<del><span class="diffponct">·</span>​</del>02<del><span class="diffponct">·</span>​</del><span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<del><span class="diffponct">·</span>​</del>.​.​.​.​=.​.​.​^.​.​.​.​</td><td colspan="2" class="diffpresent">0002080:​<span class="diffponct">·</span>​<ins>0c</ins>1a<ins><span class="diffponct">·</span>​</ins>0c<ins>1</ins>1<ins><span class="diffponct">·</span>​</ins>0c3d<ins><span class="diffponct">·</span>​</ins>0901<ins><span class="diffponct">·</span>​</ins>125e<ins><span class="diffponct">·</span>​</ins>0901<ins><span class="diffponct">·</span>​</ins>0f02<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<span class="diffponct">·</span>​<ins>.​</ins>.​.​.​.​=.​.​.​^.​.​.​.​</td></tr>
+</table>
+<div class="footer">Generated by <a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">diffoscope</a> 78</div>
+</body>
+</html>

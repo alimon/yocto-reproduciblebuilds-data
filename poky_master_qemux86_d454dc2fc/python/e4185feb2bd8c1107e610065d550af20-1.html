@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope --html-dir sstate_diff_results/python repos/poky/build/sstate-cache/49/sstate:python:i586-poky-linux:2.7.13:r1:i586:3:49ebc05d5518e1ccea138ca08a9f769a_populate_sysroot.tgz repos/poky2/build/sstate-cache/49/sstate:python:i586-poky-linux:2.7.13:r1:i586:3:49ebc05d5518e1ccea138ca08a9f769a_populate_sysroot.tgz</title>
+  <style type="text/css">
+    body.diffoscope {
+      background: white;
+      color: black;
+    }
+    .diffoscope .footer {
+      font-size: small;
+    }
+    .diffoscope .difference {
+      border: outset #888 1px;
+      background: #E8E8E8;
+      background: rgba(0,0,0,.1);
+      padding: 0.5em;
+      margin: 0.5em 0;
+    }
+    .diffoscope .difference table {
+      table-layout: fixed;
+      width: 100%;
+      border: 0;
+    }
+    .diffoscope .difference th,
+    .diffoscope .difference td {
+      border: 0;
+    }
+    .diffoscope table.diff {
+      border: 0;
+      border-collapse:collapse;
+      font-size:0.75em;
+      font-family: 'Lucida Console', monospace;
+    }
+    .diffoscope table.diff tr:hover td {
+      background: #FFFF00;
+    }
+    .diffoscope .line {
+      color:#8080a0
+    }
+    .diffoscope th {
+      background: black;
+      color: white
+    }
+    .diffoscope .diffunmodified td {
+      background: #D0D0E0
+    }
+    .diffoscope .diffhunk td {
+      background: #A0A0A0
+    }
+    .diffoscope .diffadded td {
+      background: #CCFFCC
+    }
+    .diffoscope .diffdeleted td {
+      background: #FFCCCC
+    }
+    .diffoscope .diffchanged td {
+      background: #FFFFA0
+    }
+    .diffoscope ins, del {
+      background: #E0C880;
+      text-decoration: none
+    }
+    .diffoscope .diffponct {
+      color: #B08080
+    }
+    .diffoscope .comment {
+      font-style: italic;
+    }
+    .diffoscope .source {
+      font-weight: bold;
+    }
+    .diffoscope .error {
+      border: solid black 1px;
+      background: red;
+      color: white;
+      padding: 0.2em;
+    }
+    .diffoscope .anchor {
+      margin-left: 0.5em;
+      font-size: 80%;
+      color: #333;
+      text-decoration: none;
+      display: none;
+    }
+    .diffoscope .diffheader:hover .anchor {
+      display: inline;
+    }
+    .diffoscope table.diff tr.ondemand td {
+      background: #f99;
+      text-align: center;
+      padding: 0.5em 0;
+    }
+    .diffoscope table.diff tr.ondemand:hover td {
+      background: #faa;
+      cursor: pointer;
+    }
+    .diffoscope .diffcontrol {
+      float: left;
+      margin-right: 0.3em;
+      cursor: pointer;
+      display: none; /* currently, only available in html-dir output where jquery is enabled */
+    }
+    .diffoscope .diffcontrol-double {
+      line-height: 200%;
+    }
+    .diffoscope .colines {
+      width: 3em;
+    }
+    .diffoscope .coldiff {
+      width: 99%;
+    }
+  </style>
+  
+</head>
+<body class="diffoscope">
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr class="diffchanged"><td class="diffline">381 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBFFI_INCLUDEDIR&#x27;:​<span class="diffponct">·</span>​&#x27;/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot/​usr/​lib/​libffi-​3.​2.​1/​include&#x27;,​</td><td class="diffline">381 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBFFI_INCLUDEDIR&#x27;:​<span class="diffponct">·</span>​&#x27;/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot/​usr/​lib/​libffi-​3.​2.​1/​include&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">382 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBM&#x27;:​<span class="diffponct">·</span>​&#x27;-​lm&#x27;,​</td><td class="diffline">382 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBM&#x27;:​<span class="diffponct">·</span>​&#x27;-​lm&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">383 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBOBJDIR&#x27;:​<span class="diffponct">·</span>​&#x27;Python/​&#x27;,​</td><td class="diffline">383 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBOBJDIR&#x27;:​<span class="diffponct">·</span>​&#x27;Python/​&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">384 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBOBJS&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td><td class="diffline">384 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBOBJS&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">385 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBP&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​lib/​python2.​7&#x27;,​</td><td class="diffline">385 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBP&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​lib/​python2.​7&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">386 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBPC&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​lib/​pkgconfig&#x27;,​</td><td class="diffline">386 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBPC&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​lib/​pkgconfig&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">387 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBPL&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​lib/​python2.​7/​config&#x27;,​</td><td class="diffline">387 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBPL&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​lib/​python2.​7/​config&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">388 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBRARY&#x27;:​<span class="diffponct">·</span>​&#x27;libpython2.​7.​a&#x27;,​</td><td class="diffline">388 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBRARY&#x27;:​<span class="diffponct">·</span>​&#x27;libpython2.​7.​a&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">389 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBRARY_OBJS&#x27;:​<span class="diffponct">·</span>​&#x27;\\&#x27;,​</td><td class="diffline">389 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBRARY_OBJS&#x27;:​<span class="diffponct">·</span>​&#x27;\\&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">390 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBS&#x27;:​<span class="diffponct">·</span>​&#x27;-​lpthread<span class="diffponct">·</span>​-​ldl<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​lpthread<span class="diffponct">·</span>​-​lutil&#x27;,​</td><td class="diffline">390 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBS&#x27;:​<span class="diffponct">·</span>​&#x27;-​lpthread<span class="diffponct">·</span>​-​ldl<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​lpthread<span class="diffponct">·</span>​-​lutil&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">391 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBSUBDIRS&#x27;:​<span class="diffponct">·</span>​&#x27;lib-​tk<span class="diffponct">·</span>​lib-​tk/​test<span class="diffponct">·</span>​lib-​tk/​test/​test_tkinter<span class="diffponct">·</span>​\\&#x27;,​</td><td class="diffline">391 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LIBSUBDIRS&#x27;:​<span class="diffponct">·</span>​&#x27;lib-​tk<span class="diffponct">·</span>​lib-​tk/​test<span class="diffponct">·</span>​lib-​tk/​test/​test_tkinter<span class="diffponct">·</span>​\\&#x27;,​</td></tr>
+<tr class="diffchanged"><td class="diffline">392 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LINKCC&#x27;:​<span class="diffponct">·</span>​&#x27;i586-​poky-​linux-​gcc<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​m32<span class="diffponct">·</span>​-​march=i586<span class="diffponct">·</span>​-​-​sysroot=/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot&#x27;,​</td><td class="diffline">392 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LINKCC&#x27;:​<span class="diffponct">·</span>​&#x27;i586-​poky-​linux-​gcc<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​m32<span class="diffponct">·</span>​-​march=i586<span class="diffponct">·</span>​-​-​sysroot=/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">393 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LINKFORSHARED&#x27;:​<span class="diffponct">·</span>​&#x27;-​Xlinker<span class="diffponct">·</span>​-​export-​dynamic&#x27;,​</td><td class="diffline">393 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LINKFORSHARED&#x27;:​<span class="diffponct">·</span>​&#x27;-​Xlinker<span class="diffponct">·</span>​-​export-​dynamic&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">394 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LLVM_PROF_ERR&#x27;:​<span class="diffponct">·</span>​&#x27;no&#x27;,​</td><td class="diffline">394 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LLVM_PROF_ERR&#x27;:​<span class="diffponct">·</span>​&#x27;no&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">395 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LLVM_PROF_FILE&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td><td class="diffline">395 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LLVM_PROF_FILE&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">396 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LLVM_PROF_MERGER&#x27;:​<span class="diffponct">·</span>​&#x27;true&#x27;,​</td><td class="diffline">396 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LLVM_PROF_MERGER&#x27;:​<span class="diffponct">·</span>​&#x27;true&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">397 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LN&#x27;:​<span class="diffponct">·</span>​&#x27;ln&#x27;,​</td><td class="diffline">397 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LN&#x27;:​<span class="diffponct">·</span>​&#x27;ln&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">398 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LOCALMODLIBS&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td><td class="diffline">398 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;LOCALMODLIBS&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">399 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACHDEP&#x27;:​<span class="diffponct">·</span>​&#x27;linux2&#x27;,​</td><td class="diffline">399 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACHDEP&#x27;:​<span class="diffponct">·</span>​&#x27;linux2&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">400 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACHDEPPATH&#x27;:​<span class="diffponct">·</span>​&#x27;:​plat-​linux2&#x27;,​</td><td class="diffline">400 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACHDEPPATH&#x27;:​<span class="diffponct">·</span>​&#x27;:​plat-​linux2&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">401 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACHDEPS&#x27;:​<span class="diffponct">·</span>​&#x27;plat-​linux2&#x27;,​</td><td class="diffline">401 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACHDEPS&#x27;:​<span class="diffponct">·</span>​&#x27;plat-​linux2&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">402 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACHDEP_OBJS&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td><td class="diffline">402 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACHDEP_OBJS&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">403 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACHDESTLIB&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​lib/​python2.​7&#x27;,​</td><td class="diffline">403 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACHDESTLIB&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​lib/​python2.​7&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">404 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACH_C_THREADS&#x27;:​<span class="diffponct">·</span>​0,​</td><td class="diffline">404 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACH_C_THREADS&#x27;:​<span class="diffponct">·</span>​0,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">405 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACOSX_DEPLOYMENT_TA​RGET&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td><td class="diffline">405 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MACOSX_DEPLOYMENT_TA​RGET&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td></tr>
+<tr class="diffchanged"><td class="diffline">406 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MAINCC&#x27;:​<span class="diffponct">·</span>​&#x27;i586-​poky-​linux-​gcc<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​m32<span class="diffponct">·</span>​-​march=i586<span class="diffponct">·</span>​-​-​sysroot=/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot&#x27;,​</td><td class="diffline">406 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MAINCC&#x27;:​<span class="diffponct">·</span>​&#x27;i586-​poky-​linux-​gcc<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​m32<span class="diffponct">·</span>​-​march=i586<span class="diffponct">·</span>​-​-​sysroot=/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">407 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MAJOR_IN_MKDEV&#x27;:​<span class="diffponct">·</span>​0,​</td><td class="diffline">407 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MAJOR_IN_MKDEV&#x27;:​<span class="diffponct">·</span>​0,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">408 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MAJOR_IN_SYSMACROS&#x27;:​<span class="diffponct">·</span>​1,​</td><td class="diffline">408 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MAJOR_IN_SYSMACROS&#x27;:​<span class="diffponct">·</span>​1,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">409 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MAKESETUP&#x27;:​<span class="diffponct">·</span>​&#x27;.​.​/​Python-​2.​7.​13/​Modules/​makesetup&#x27;,​</td><td class="diffline">409 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MAKESETUP&#x27;:​<span class="diffponct">·</span>​&#x27;.​.​/​Python-​2.​7.​13/​Modules/​makesetup&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">410 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MANDIR&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​share/​man&#x27;,​</td><td class="diffline">410 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MANDIR&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​share/​man&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">411 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MEMTESTOPTS&#x27;:​<span class="diffponct">·</span>​&#x27;-​l<span class="diffponct">·</span>​-​v<span class="diffponct">·</span>​-​x<span class="diffponct">·</span>​test_subprocess<span class="diffponct">·</span>​test_io<span class="diffponct">·</span>​test_lib2to3<span class="diffponct">·</span>​\\<span class="diffponct">·</span>​-​x<span class="diffponct">·</span>​test_dl<span class="diffponct">·</span>​test___all__<span class="diffponct">·</span>​test_fork1<span class="diffponct">·</span>​\\&#x27;,​</td><td class="diffline">411 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MEMTESTOPTS&#x27;:​<span class="diffponct">·</span>​&#x27;-​l<span class="diffponct">·</span>​-​v<span class="diffponct">·</span>​-​x<span class="diffponct">·</span>​test_subprocess<span class="diffponct">·</span>​test_io<span class="diffponct">·</span>​test_lib2to3<span class="diffponct">·</span>​\\<span class="diffponct">·</span>​-​x<span class="diffponct">·</span>​test_dl<span class="diffponct">·</span>​test___all__<span class="diffponct">·</span>​test_fork1<span class="diffponct">·</span>​\\&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">412 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MKDIR_P&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​bin/​mkdir<span class="diffponct">·</span>​-​p&#x27;,​</td><td class="diffline">412 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MKDIR_P&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​bin/​mkdir<span class="diffponct">·</span>​-​p&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">413 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MODLIBS&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td><td class="diffline">413 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;MODLIBS&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 449, 18 lines modified</td><td colspan="2">Offset 449, 18 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">449 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYLONG_BITS_IN_DIGIT​&#x27;:​<span class="diffponct">·</span>​0,​</td><td class="diffline">449 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYLONG_BITS_IN_DIGIT​&#x27;:​<span class="diffponct">·</span>​0,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">450 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHON&#x27;:​<span class="diffponct">·</span>​&#x27;python&#x27;,​</td><td class="diffline">450 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHON&#x27;:​<span class="diffponct">·</span>​&#x27;python&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">451 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHONFRAMEWORK&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td><td class="diffline">451 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHONFRAMEWORK&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">452 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHONFRAMEWORKDIR&#x27;:​<span class="diffponct">·</span>​&#x27;no-​framework&#x27;,​</td><td class="diffline">452 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHONFRAMEWORKDIR&#x27;:​<span class="diffponct">·</span>​&#x27;no-​framework&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">453 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHONFRAMEWORKINSTA​LLDIR&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td><td class="diffline">453 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHONFRAMEWORKINSTA​LLDIR&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">454 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHONFRAMEWORKPREFI​X&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td><td class="diffline">454 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHONFRAMEWORKPREFI​X&#x27;:​<span class="diffponct">·</span>​&#x27;&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">455 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHONPATH&#x27;:​<span class="diffponct">·</span>​&#x27;:​plat-​linux2:​lib-​tk:​lib-​old&#x27;,​</td><td class="diffline">455 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHONPATH&#x27;:​<span class="diffponct">·</span>​&#x27;:​plat-​linux2:​lib-​tk:​lib-​old&#x27;,​</td></tr>
+<tr class="diffchanged"><td class="diffline">456 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHON_FOR_BUILD&#x27;:​<span class="diffponct">·</span>​&#x27;_PYTHON_PROJECT_BASE​=/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​build<span class="diffponct">·</span>​_PYTHON_HOST_PLATFORM​=$(_PYTHON_HOST_PLATF​ORM)​<span class="diffponct">·</span>​PYTHONPATH=/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot-​native/​usr/​lib/​python2.​7/​lib-​dynload/​:​$(shell<span class="diffponct">·</span>​test<span class="diffponct">·</span>​-​f<span class="diffponct">·</span>​pybuilddir.​txt<span class="diffponct">·</span>​&amp;&amp;<span class="diffponct">·</span>​echo<span class="diffponct">·</span>​/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​build/​`cat<span class="diffponct">·</span>​pybuilddir.​txt`:​)​.​.​/​Python-​2.​7.​13/​Lib:​.​.​/​Python-​2.​7.​13/​Lib/​plat-​linux2<span class="diffponct">·</span>​python2.​7&#x27;,​</td><td class="diffline">456 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHON_FOR_BUILD&#x27;:​<span class="diffponct">·</span>​&#x27;_PYTHON_PROJECT_BASE​=/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​build<span class="diffponct">·</span>​_PYTHON_HOST_PLATFORM​=$(_PYTHON_HOST_PLATF​ORM)​<span class="diffponct">·</span>​PYTHONPATH=/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot-​native/​usr/​lib/​python2.​7/​lib-​dynload/​:​$(shell<span class="diffponct">·</span>​test<span class="diffponct">·</span>​-​f<span class="diffponct">·</span>​pybuilddir.​txt<span class="diffponct">·</span>​&amp;&amp;<span class="diffponct">·</span>​echo<span class="diffponct">·</span>​/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​build/​`cat<span class="diffponct">·</span>​pybuilddir.​txt`:​)​.​.​/​Python-​2.​7.​13/​Lib:​.​.​/​Python-​2.​7.​13/​Lib/​plat-​linux2<span class="diffponct">·</span>​python2.​7&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">457 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHON_HEADERS&#x27;:​<span class="diffponct">·</span>​&#x27;\\&#x27;,​</td><td class="diffline">457 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHON_HEADERS&#x27;:​<span class="diffponct">·</span>​&#x27;\\&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">458 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHON_OBJS&#x27;:​<span class="diffponct">·</span>​&#x27;\\&#x27;,​</td><td class="diffline">458 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PYTHON_OBJS&#x27;:​<span class="diffponct">·</span>​&#x27;\\&#x27;,​</td></tr>
+<tr class="diffchanged"><td class="diffline">459 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PY_CFLAGS&#x27;:​<span class="diffponct">·</span>​&#x27;-​fno-​strict-​aliasing<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​O2<span class="diffponct">·</span>​-​pipe<span class="diffponct">·</span>​-​g<span class="diffponct">·</span>​-​feliminate-​unused-​debug-​types<span class="diffponct">·</span>​-​fdebug-​prefix-​map=/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1=/​usr/​src/​debug/​python/​2.​7.​13-​r1<span class="diffponct">·</span>​-​fdebug-​prefix-​map=/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot-​native=<span class="diffponct">·</span>​-​fdebug-​prefix-​map=/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot=<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​DNDEBUG<span class="diffponct">·</span>​-​g<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​O3<span class="diffponct">·</span>​-​Wall<span class="diffponct">·</span>​-​Wstrict-​prototypes<span class="diffponct">·</span>​-​I.​<span class="diffponct">·</span>​-​IInclude<span class="diffponct">·</span>​-​I.​.​/​Python-​2.​7.​13/​Include<span class="diffponct">·</span>​-​fPIC<span class="diffponct">·</span>​-​DPy_BUILD_CORE&#x27;,​</td><td class="diffline">459 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PY_CFLAGS&#x27;:​<span class="diffponct">·</span>​&#x27;-​fno-​strict-​aliasing<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​O2<span class="diffponct">·</span>​-​pipe<span class="diffponct">·</span>​-​g<span class="diffponct">·</span>​-​feliminate-​unused-​debug-​types<span class="diffponct">·</span>​-​fdebug-​prefix-​map=/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1=/​usr/​src/​debug/​python/​2.​7.​13-​r1<span class="diffponct">·</span>​-​fdebug-​prefix-​map=/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot-​native=<span class="diffponct">·</span>​-​fdebug-​prefix-​map=/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​recipe-​sysroot=<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​DNDEBUG<span class="diffponct">·</span>​-​g<span class="diffponct">·</span>​<span class="diffponct">·</span>​-​O3<span class="diffponct">·</span>​-​Wall<span class="diffponct">·</span>​-​Wstrict-​prototypes<span class="diffponct">·</span>​-​I.​<span class="diffponct">·</span>​-​IInclude<span class="diffponct">·</span>​-​I.​.​/​Python-​2.​7.​13/​Include<span class="diffponct">·</span>​-​fPIC<span class="diffponct">·</span>​-​DPy_BUILD_CORE&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">460 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PY_FORMAT_LONG_LONG&#x27;​:​<span class="diffponct">·</span>​&#x27;&quot;ll&quot;&#x27;,​</td><td class="diffline">460 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PY_FORMAT_LONG_LONG&#x27;​:​<span class="diffponct">·</span>​&#x27;&quot;ll&quot;&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">461 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PY_FORMAT_SIZE_T&#x27;:​<span class="diffponct">·</span>​&#x27;&quot;z&quot;&#x27;,​</td><td class="diffline">461 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PY_FORMAT_SIZE_T&#x27;:​<span class="diffponct">·</span>​&#x27;&quot;z&quot;&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">462 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PY_UNICODE_TYPE&#x27;:​<span class="diffponct">·</span>​&#x27;unsigned<span class="diffponct">·</span>​short&#x27;,​</td><td class="diffline">462 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;PY_UNICODE_TYPE&#x27;:​<span class="diffponct">·</span>​&#x27;unsigned<span class="diffponct">·</span>​short&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">463 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;Py_DEBUG&#x27;:​<span class="diffponct">·</span>​0,​</td><td class="diffline">463 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;Py_DEBUG&#x27;:​<span class="diffponct">·</span>​0,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">464 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;Py_ENABLE_SHARED&#x27;:​<span class="diffponct">·</span>​1,​</td><td class="diffline">464 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;Py_ENABLE_SHARED&#x27;:​<span class="diffponct">·</span>​1,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">465 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;Py_UNICODE_SIZE&#x27;:​<span class="diffponct">·</span>​2,​</td><td class="diffline">465 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;Py_UNICODE_SIZE&#x27;:​<span class="diffponct">·</span>​2,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">466 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;Py_USING_UNICODE&#x27;:​<span class="diffponct">·</span>​1,​</td><td class="diffline">466 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;Py_USING_UNICODE&#x27;:​<span class="diffponct">·</span>​1,​</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 534, 15 lines modified</td><td colspan="2">Offset 534, 15 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">534 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;WITH_NEXT_FRAMEWORK&#x27;​:​<span class="diffponct">·</span>​0,​</td><td class="diffline">534 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;WITH_NEXT_FRAMEWORK&#x27;​:​<span class="diffponct">·</span>​0,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">535 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;WITH_PYMALLOC&#x27;:​<span class="diffponct">·</span>​1,​</td><td class="diffline">535 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;WITH_PYMALLOC&#x27;:​<span class="diffponct">·</span>​1,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">536 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;WITH_THREAD&#x27;:​<span class="diffponct">·</span>​1,​</td><td class="diffline">536 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;WITH_THREAD&#x27;:​<span class="diffponct">·</span>​1,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">537 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;WITH_TSC&#x27;:​<span class="diffponct">·</span>​0,​</td><td class="diffline">537 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;WITH_TSC&#x27;:​<span class="diffponct">·</span>​0,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">538 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;WITH_VALGRIND&#x27;:​<span class="diffponct">·</span>​0,​</td><td class="diffline">538 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;WITH_VALGRIND&#x27;:​<span class="diffponct">·</span>​0,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">539 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;X87_DOUBLE_ROUNDING&#x27;​:​<span class="diffponct">·</span>​0,​</td><td class="diffline">539 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;X87_DOUBLE_ROUNDING&#x27;​:​<span class="diffponct">·</span>​0,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">540 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;XMLLIBSUBDIRS&#x27;:​<span class="diffponct">·</span>​&#x27;xml<span class="diffponct">·</span>​xml/​dom<span class="diffponct">·</span>​xml/​etree<span class="diffponct">·</span>​xml/​parsers<span class="diffponct">·</span>​xml/​sax&#x27;,​</td><td class="diffline">540 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;XMLLIBSUBDIRS&#x27;:​<span class="diffponct">·</span>​&#x27;xml<span class="diffponct">·</span>​xml/​dom<span class="diffponct">·</span>​xml/​etree<span class="diffponct">·</span>​xml/​parsers<span class="diffponct">·</span>​xml/​sax&#x27;,​</td></tr>
+<tr class="diffchanged"><td class="diffline">541 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;abs_builddir&#x27;:​<span class="diffponct">·</span>​&#x27;/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​build&#x27;,​</td><td class="diffline">541 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;abs_builddir&#x27;:​<span class="diffponct">·</span>​&#x27;/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​build&#x27;,​</td></tr>
+<tr class="diffchanged"><td class="diffline">542 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;abs_srcdir&#x27;:​<span class="diffponct">·</span>​&#x27;/​home/​alimonb/​repos/​poky/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​build/​.​.​/​Python-​2.​7.​13&#x27;,​</td><td class="diffline">542 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;abs_srcdir&#x27;:​<span class="diffponct">·</span>​&#x27;/​home/​alimonb/​repos/​poky<ins>2</ins>/​build/​tmp/​work/​i586-​poky-​linux/​python/​2.​7.​13-​r1/​build/​.​.​/​Python-​2.​7.​13&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">543 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;build&#x27;:​<span class="diffponct">·</span>​&#x27;x86_64-​pc-​linux-​gnu&#x27;,​</td><td class="diffline">543 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;build&#x27;:​<span class="diffponct">·</span>​&#x27;x86_64-​pc-​linux-​gnu&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">544 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;datarootdir&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​share&#x27;,​</td><td class="diffline">544 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;datarootdir&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr/​share&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">545 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;exec_prefix&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr&#x27;,​</td><td class="diffline">545 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;exec_prefix&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">546 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;host&#x27;:​<span class="diffponct">·</span>​&#x27;i586-​poky-​linux-​gnu&#x27;,​</td><td class="diffline">546 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;host&#x27;:​<span class="diffponct">·</span>​&#x27;i586-​poky-​linux-​gnu&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">547 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;prefix&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr&#x27;,​</td><td class="diffline">547 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;prefix&#x27;:​<span class="diffponct">·</span>​&#x27;/​usr&#x27;,​</td></tr>
+<tr class="diffunmodified"><td class="diffline">548 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;srcdir&#x27;:​<span class="diffponct">·</span>​&#x27;.​.​/​Python-​2.​7.​13&#x27;}</td><td class="diffline">548 </td><td class="diffpresent"><span class="diffponct">·</span>​&#x27;srcdir&#x27;:​<span class="diffponct">·</span>​&#x27;.​.​/​Python-​2.​7.​13&#x27;}</td></tr>
+</table>
+<div class="footer">Generated by <a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">diffoscope</a> 78</div>
+</body>
+</html>
